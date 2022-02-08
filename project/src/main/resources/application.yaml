@@ -1,0 +1,7 @@
+application:
+  name: project
+  package: service1.project
+spring:
+  application:
+    name: ${application.name}
+
